@@ -11,8 +11,8 @@ public class Operaciones {
 		numero2 = n2;
 	}
 	
-	public static int Suma() {
-		return numero1 + numero2;
+	public static int Resta() {
+		return numero1 - numero2;
 	}
 	
 	public static void main(String[] args) {
@@ -25,6 +25,6 @@ public class Operaciones {
 		num2 = teclado.nextInt();
 		
 		Num(num1,num2);
-		System.out.println("\n\tEl resultado es de: " + Suma());
+		System.out.println("\n\tEl resultado es de: " + Resta());
 	}
 }
